@@ -25,6 +25,12 @@
  ;; If there is more than one, they won't work right.
  )
 
+(windmove-default-keybindings)
+
 (global-set-key (kbd "M-m") 'set-mark-command)
 
-(load-theme 'tango)
+(load-theme 'wombat)
+
+(setq cursor-type 'hbar)
+
+
